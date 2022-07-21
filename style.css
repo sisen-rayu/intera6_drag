@@ -28,13 +28,11 @@ body {
 
 .empty {
   display: inline-block;
-  width: 255px;
-  height: 255px;
+  width: 260px;
+  height: 260px;
   border: 2px solid #a79689;
   background-color: #3d3939;
   margin: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .hold {

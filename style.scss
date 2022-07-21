@@ -28,12 +28,12 @@ body {
 
 .empty {
     display: inline-block;
-    width: 255px;
-    height: 255px;
+    width: 260px;
+    height: 260px;
     border: 2px solid rgb(167, 150, 137);
     background-color: rgb(61, 57, 57);
     margin: 10px;
-    box-sizing: border-box;
+    // box-sizing: border-box;
 }
 
 .hold {
