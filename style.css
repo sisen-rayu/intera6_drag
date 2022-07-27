@@ -1,26 +1,27 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
+  color: #f8e7d9;
+}
+
+.heading {
+  color: #f8e7d9;
 }
 
 body {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(#815050), to(#f5a5f1));
-  background: linear-gradient(#815050, #f5a5f1);
-  display: -ms-grid;
+  background-color: #bb767a;
   display: grid;
   place-items: center;
 }
 
 .fill {
   position: relative;
-  background-image: url("http://source.unsplash.com/random/250×250");
+  background-image: url("/_static/dist/images/latte.jpg");
   width: 250px;
   height: 250px;
   background-size: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   top: 5px;
   left: 5px;
   cursor: pointer;
@@ -30,8 +31,8 @@ body {
   display: inline-block;
   width: 260px;
   height: 260px;
-  border: 2px solid #a79689;
-  background-color: #3d3939;
+  border: 2px solid rgb(167, 150, 137);
+  background-color: #f8e7d9;
   margin: 10px;
 }
 
@@ -40,7 +41,7 @@ body {
 }
 
 .hovered {
-  background-color: #f4f4f4;
+  background-color: #f8e7d9;
   border-style: dotted;
 }
 
