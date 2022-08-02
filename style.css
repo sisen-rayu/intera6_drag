@@ -17,7 +17,7 @@ body {
 
 .fill {
   position: relative;
-  background-image: url("/images/latte.jpg");
+  background-image: url("https://sisen-rayu.github.io/intera6_drag/images/latte.jpg");
   width: 250px;
   height: 250px;
   background-size: cover;
